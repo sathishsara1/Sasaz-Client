@@ -1,0 +1,78 @@
+#maxi-navigation {
+    width: -webkit-fill-available;
+    display: flex;
+    background-color: rgb(19, 17, 17);
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 2em;
+    z-index: 9;
+}
+
+#maxi-navigation ul {
+    display: flex;
+    gap: 2em;
+    color: #fff;
+}
+
+#maxi-navigation ul li {
+    list-style-type: none;
+}
+
+.navlinks {
+    text-decoration: none;
+    color: white
+}
+
+#profile {
+    width: 2.5em;
+    height: 2.5em;
+}
+
+#logo {
+    width: 3em;
+    height: 3em;
+}
+
+#nav-main1 {
+    display: flex;
+    align-items: center;
+    gap: 5em;
+}
+
+
+
+@media screen and (max-width: 992px) {
+
+    #logo {
+        width: 3em;
+        height: 3em;
+    }
+
+    #profile {
+        width: 2em;
+        height: 2em;
+    }
+
+    #mini-navigation {
+        display: flex;
+        width: 100%;
+        position: fixed;
+        bottom: 5%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #mini-navigation ul{
+        font-size: min(3.5vw, 1em);
+        display: flex;
+        gap: 4vw;
+        padding: 2% 3%;
+        background: rgb(43, 43, 43);
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+    }
+
+    #mini-navigation ul li {
+        list-style-type: none;
+    }
+}

@@ -1,0 +1,26 @@
+#main-section {
+    flex: 1 1;
+    width: 100dvw;
+    display: flex;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+#right-section {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    flex: 1 1;
+    width: auto;
+    overflow: auto;
+    background-color: #e7e7e7;
+}
+
+#feed-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 2em 0em;
+    gap: 2em;
+}

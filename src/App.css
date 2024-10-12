@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+button,
+Link,
+a {
+  cursor: pointer;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  width: 100dvw;
+  height: 100dvh;
+  overflow: hidden;
+}
+
+.pre-loader {
+  position: absolute;
+  width: 100dvw;
+  height: 100dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pre-loader svg {
+  width: 10em !important;
+  height: 10em !important;
+}
